@@ -1,0 +1,24 @@
+{
+  "name": "doc-chat",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "chat_js.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.2.20",
+    "@langchain/core": "^0.2.18",
+    "@langchain/openai": "^0.2.4",
+    "chromadb": "^1.8.1",
+    "langchain": "^0.2.10",
+    "pdf-parse": "^1.1.1"
+  }
+}
